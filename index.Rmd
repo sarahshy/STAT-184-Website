@@ -3,9 +3,10 @@ title: "Welcome to STAT 184!"
 ---
 
 **Instructor:** Sarah Shy, shy at psu.edu
-**TA: Alyssa Hu**
 
-Office hours:
+**TA:** Alyssa Hu
+
+**Office hours:**
 
 The Syllabus can be found here.
 

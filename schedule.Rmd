@@ -1,9 +1,9 @@
 ---
-title: "Schedule"
+title: "Weekly Schedule and Assignments"
 ---
 
-# Week 1
+## Week 1
 Stuff
 
-# Week 2
+## Week 2
 Stuff
