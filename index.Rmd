@@ -2,12 +2,11 @@
 title: "Welcome to STAT 184!"
 ---
 
-**Instructor:** Sarah Shy, shy at psu.edu
+**Instructor:** Sarah Shy, shy [at] psu [dot] edu \\
+Office: 301 Thomas Building
 
-**TA:** Alyssa Hu
+**Teaching Assistant:** Alyssa Hu
 
-**Office hours:**
-
-The Syllabus can be found here.
+**Office hours (301 Thomas):**
 
 The weekly schedule and assignments can be found here.
