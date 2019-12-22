@@ -1,11 +1,9 @@
 ---
-title: "Home Page"
+title: "Welcome to STAT 184!"
 ---
 
-Welcome to STAT 184!
-
-Instructor: Sarah Shy, shy at psu.edu
-TA: Alyssa Hu
+**Instructor:** Sarah Shy, shy at psu.edu
+**TA: Alyssa Hu**
 
 Office hours:
 
