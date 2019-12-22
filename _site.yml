@@ -1,0 +1,9 @@
+name: "STAT184-Website"
+output_dir: "."
+navbar:
+  title: "STAT 184 Intro to R"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Schedule"
+      href: schedule.html
