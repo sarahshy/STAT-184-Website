@@ -2,15 +2,19 @@
 title: "Welcome to STAT 184!"
 ---
 
+## Teaching Team
 **Instructor**  
 Sarah Shy  
 Email: shy [at] psu [dot] edu  
 Office: 301 Thomas Building
+Office hours: (TBD)
 
 **Teaching Assistant**  
 Alyssa Hu  
 Email:
 
-**Office hours (301 Thomas):**
+## Class Time & Location
+**Time:** Wed/Fri  
+**Location:** Keller  
 
 The weekly schedule and assignments can be found here.
