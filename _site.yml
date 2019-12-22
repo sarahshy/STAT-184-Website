@@ -7,3 +7,6 @@ navbar:
       href: index.html
     - text: "Schedule"
       href: schedule.html
+output:
+  html_document:
+    theme: flatly
