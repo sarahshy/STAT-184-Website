@@ -16,19 +16,13 @@ Office hours: (TBD)
 Alyssa Hu  
 Email:
 
-<br/>
-
 ## Class Time & Location
 **Time:** Wed/Fri  
 **Location:** Keller  
 
-<br/>
-
 ## Websites & Course Links
 **Course Webpage:** https://sarahshy.github.io/STAT-184-Website/index.html  
 **Weekly schedule and assignments:** https://sarahshy.github.io/STAT-184-Website/schedule.html
-
-<br/>
 
 ## Laptops & Textbooks
 #### **Laptops**
@@ -81,7 +75,7 @@ Weekly homework assignments will be due before class in order to assess understa
 
 <br/>
 
-## Class Description & Objective
+## Class Description & Objectives
 
 #### **Description**
 STAT 184 Introduction to R (1) R is a powerful, open-source programming language used widely for statistical analyses. It is easily extendible, and thousands of user-created packages are publicly available to extend its capabilities. This course will introduce R syntax: Students will be asked to utilize various descriptive and graphical statistical techniques for various types of datasets. These datasets will primarily be drawn from those that are readily available for R; emphasis will not be on obtaining nor cleaning raw data in this course. Furthermore, this course focus on descriptive statistics and graphical summary techniques rather than inferential statistical techniques. In particular, no statistical background will be assumed. In addition to being asked to write well-documented code for functions in R, students will be exposed to development environments (e.g., the open-source RStudio environment) and the Shiny framework for web applications.
