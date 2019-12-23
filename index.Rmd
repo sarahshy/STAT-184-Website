@@ -1,5 +1,5 @@
 ---
-title: "Welcome to STAT 184!"
+title: "Welcome to STAT 184 (Spring 2020)!"
 date: '`r paste("Updated on", Sys.Date())`'
 ---
 
