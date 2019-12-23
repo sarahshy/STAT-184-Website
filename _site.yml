@@ -10,3 +10,7 @@ navbar:
 output:
   html_document:
     theme: flatly
+    toc: true
+    toc_float: true
+    toc_collapsed: true
+    toc_depth: 3
