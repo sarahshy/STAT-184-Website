@@ -1,6 +1,9 @@
 ---
 title: "Welcome to STAT 184!"
+date: '`r paste("Updated on", Sys.Date())`'
 ---
+
+<br/>
 
 ## Teaching Team
 **Instructor**  
@@ -13,8 +16,124 @@ Office hours: (TBD)
 Alyssa Hu  
 Email:
 
+<br/>
+
 ## Class Time & Location
 **Time:** Wed/Fri  
 **Location:** Keller  
 
-The weekly schedule and assignments can be found here.
+<br/>
+
+## Websites & Course Links
+**Course Webpage:** https://sarahshy.github.io/STAT-184-Website/index.html  
+**Weekly schedule and assignments:** https://sarahshy.github.io/STAT-184-Website/schedule.html
+
+<br/>
+
+## Laptops & Textbooks
+#### **Laptops**
+Bring a laptop to class each day if you have one. I encourage students to work collaboratively, so I’d like to have at least one laptop for every 2 or 3 students. Please your laptop each week if you have one, but there’s no need to buy a laptop if you don’t already have one.
+
+#### **Textbooks**
+(required): **Data Computing: An Introduction to Wrangling and Visualisation with R** by Daniel
+Kaplan  
+(recommended): **Advanced R by Hadley Wickham** (free ebook: http://adv-r.had.co.nz/)  
+(recommended): **R for Everyone: Advanced Analytics and Graphics** by Jared P. Lander
+
+<br/>
+
+## Grading
+Learning outcomes will be assessed based on performance in each of the following categories accompanied by their impact on the overall grade:  
+
+30% Semester Project  
+30% In-class Assignments  
+15% Reading Quizzes  
+15% Homework  
+10% Participation  
+
+Final letter grades will be determined as follows:  
+A : 93-100%  
+A-: 90-92%  
+B+: 87-89%  
+B : 83-86%  
+B-: 80-82%  
+C+: 77-79%  
+C : 70-76%  
+D : 60-69%  
+F : < 60%
+
+#### **Semester Project**
+The final project provides an opportunity to combine content learned throughout the course for use in some realistic application. Each student is required to individually complete and sumbit their own work, but students consult one another with questions (post questions on Piazza, chat with group members, etc). A successful project will find one or more real & interesting data sets, and use their R programming skills to tell a story that reveals insights from the data. The weekly group activities in the Data Computing text book are good examples of the type of work expected for a successful project, with the differences that you are expected to do the work independently using your own data (not loaded from an R package), and you are responsible for the narrative explaining your reasoning and conclusions as you work through the analysis.
+
+#### **In-class Activities**
+Weekly in-class assignments may include an activity or a quiz assigned and completed in part or whole during class. The format and length of in-class assignments will vary as warranted by the subject matter each week, although each assignments will be given the same weight toward the overall grade. There are no make-up assignments, although the lowest score will be dropped at the end of the semester.
+
+#### **Reading Quizzes**
+Weekly reading quizzes will be due before class in order to assess comprehension of the reading assignment that will be discussed each week. This allows students to see new content and concepts for the first time at their own pace in order to more effectively use class time to emphasize main points, clear up confusion, etc. The goal of the reading quiz is to hold students accountable for completing the reading each week before class.
+
+#### **Participation**
+Participation is graded based on Piazza participation and attendance. In order to earn full credit for the Piazza portion, each student should make 2 or more substantive posts per week related to the content of the course; at least one post each week should be a reply to another student’s post. You may still post anonymously if you wish; grading will utilize Piazza meta-data that can be accessed only by an instructor.
+
+Since our class only meets once each week, attendance is very important. Moreover, students will be encouraged to work in teams on in-class assignments, so others are counting on you to be in class each week. Students with University excused absences (e.g. athletics) should notify the instructor as soon as possible and provide a minimum of one week notice.
+
+#### **Homework**
+Weekly homework assignments will be due before class in order to assess understanding and content mastery. Students are encouraged to work together on homework assignments, but each student must hand in their own work. Late homework is accepted for one week after the original due date and scored using a 50% penalty.
+
+<br/>
+
+## Class Description & Objective
+
+#### **Description**
+STAT 184 Introduction to R (1) R is a powerful, open-source programming language used widely for statistical analyses. It is easily extendible, and thousands of user-created packages are publicly available to extend its capabilities. This course will introduce R syntax: Students will be asked to utilize various descriptive and graphical statistical techniques for various types of datasets. These datasets will primarily be drawn from those that are readily available for R; emphasis will not be on obtaining nor cleaning raw data in this course. Furthermore, this course focus on descriptive statistics and graphical summary techniques rather than inferential statistical techniques. In particular, no statistical background will be assumed. In addition to being asked to write well-documented code for functions in R, students will be exposed to development environments (e.g., the open-source RStudio environment) and the Shiny framework for web applications.
+
+#### **Goals & Objectives**
+Some goals and objectives may be reduced or expanded as time permits, but a tentative list follows:
+
+- General Tools
+  + Become familiar with R programming language
+  + Become familiar with RStudio development environment
+  + Generate reports and reproducible work with RMarkdown
+- Navigate some basic syntax and idioms in R
+  + Programming style
+  + Naming variables
+  + Using functions
+  + Installing and using contributed packages
+- Read & write data files using R
+- Data wrangling using R
+  + “Tidy Data”
+  + dplyr package
+- Generate descriptive statistics using R
+- Graphs & Data Visualization
+  + “Glyph-ready Data”
+  + mosiac graphics interface
+  + lattice graphics
+  + ggplot2 graphics
+- Additional topics if time permits
+  + Shiny framework for web applications
+  + Special topics
+
+<br/>
+
+## Policies & Resources
+#### **ECoS Code of Mutual Respect**
+The Eberly College of Science Code of Mutual Respect and Cooperation embodies the values that we hope our faculty, staff, and students possess and will endorse to make the Eberly College of Science a place where every individual feels respected and valued, as well as challenged and rewarded.
+
+#### **Academic Integrity Statement**
+Academic dishonesty is not limited to simply cheating on an exam or assignment. The following is quoted directly from the “PSU Faculty Senate Policies for Students” regarding academic integrity and academic dishonesty:
+
+> Academic integrity is the pursuit of scholarly activity free from fraud and deception and is an educational objective of this institution. Academic dishonesty includes, but is not limited to, cheating, plagiarizing, fabricating of information or citations, facilitating acts of academic dishonesty by others, having unauthorized possession of examinations, submitting work of another person or work previously used without informing the instructor, or tampering with the academic work of other students.
+
+All University and Eberly College of Science policies regarding academic integrity/academic dishonesty apply to this course and the students enrolled in this course. Refer to the following URL for further details on the academic integrity policies of the Eberly College of Science: http://www.science.psu.edu/academic/Integrity/index.html. Each student in this course is expected to work entirely on her/his own while taking any exam, to complete assignments on her/his own effort without the assistance of others unless directed otherwise by the instructor, and to abide by University and Eberly College of Science policies about academic integrity and academic dishonesty. Academic dishonesty can result in assignment of “F” by the course instructors or “XF” by Judicial Affairs as the final grade for the student.
+
+#### **Disability Policy**
+Penn State welcomes students with disabilities into the University’s educational programs. If you have a disability-related need for reasonable academic adjustments in this course, contact Student Disability Resources (SDR; formerly ODS) at 814-863-1807, 116 Boucke, http://equity.psu.edu/student-disability-resources. In order to receive consideration for course accommodations, you must contact ODS and provide documentation (see the guidelines at http://equity.psu.edu/student-disability-resources/guidelines).
+
+<br/>
+
+## Syllabus Changes
+This syllabus is subject to change as circumstances warrant; all changes will be distributed in writing (e.g. electronically).
+
+**Note:** This course is based on a STAT 184 course design by Matthew Beckman, PSU Department of Statistics.
+
+
+  
