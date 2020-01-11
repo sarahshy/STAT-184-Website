@@ -4,7 +4,7 @@ title: "Weekly Schedule and Assignments"
 
 ## Week 1
 [Lecture 01 Slides](https://sarahshy.github.io/STAT-184-Website/01_course_intro.html)
-
+Test
 
 ## Week 2
 Stuff

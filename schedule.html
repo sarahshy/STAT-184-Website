@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
@@ -235,6 +234,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -263,6 +263,12 @@ $(document).ready(function () {
 }
 }
 
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
 
 .toc-content {
   padding-left: 30px;
@@ -366,7 +372,7 @@ div.tocify {
 
 <div id="week-1" class="section level2">
 <h2>Week 1</h2>
-<p><a href="https://sarahshy.github.io/STAT-184-Website/01_course_intro.html">Lecture 01 Slides</a></p>
+<p><a href="https://sarahshy.github.io/STAT-184-Website/01_course_intro.html">Lecture 01 Slides</a> Test</p>
 </div>
 <div id="week-2" class="section level2">
 <h2>Week 2</h2>

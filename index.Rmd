@@ -7,7 +7,7 @@ date: '`r paste("Updated on", Sys.time())`'
 
 ## Teaching Team
 **Instructor**  
-Sarah Shy  
+Sarah Shy
 Email: shy [at] psu [dot] edu  
 Office: 301 Thomas Building
 Office hours: (TBD)

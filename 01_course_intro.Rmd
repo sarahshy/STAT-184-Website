@@ -5,7 +5,6 @@ date: "January 13, 2020"
 
 output: 
   slidy_presentation: default
-  html_notebook: default
 ---
 
 ```{r setup, include=FALSE}
