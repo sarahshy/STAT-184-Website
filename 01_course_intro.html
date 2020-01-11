@@ -1,37 +1,315 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
- "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+
+<html>
+
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta http-equiv="Content-Style-Type" content="text/css" />
-  <meta name="generator" content="pandoc" />
-  <meta name="author" content="Sarah Shy" />
-  <meta name="date" content="2020-01-13" />
-  <title>STAT 184: Introduction to R</title>
-  <style type="text/css">code{white-space: pre;}</style>
-  <link href="site_libs/slidy-2/styles/slidy.css" rel="stylesheet" />
-  <script src="site_libs/slidy-2/scripts/slidy.js"></script>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="Sarah Shy" />
+
+<meta name="date" content="2020-01-13" />
+
+<title>STAT 184: Lecture 1</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
 </head>
+
 <body>
-<div class="slide titlepage">
-  <h1 class="title">STAT 184: Introduction to R</h1>
-  <p class="author">
-Sarah Shy
-  </p>
-  <p class="date">January 13, 2020</p>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">STAT 184 Intro to R</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Syllabus</a>
+</li>
+<li>
+  <a href="schedule.html">Schedule</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">STAT 184: Lecture 1</h1>
+<h4 class="author">Sarah Shy</h4>
+<h4 class="date">January 13, 2020</h4>
+
 </div>
-<div id="objectives" class="slide section level2">
-<h1>Objectives</h1>
+
+
+<div id="objectives" class="section level2">
+<h2>Objectives</h2>
 <ul>
 <li>quick introduction</li>
 <li>motivation of the course</li>
 <li>syllabus fly-over</li>
 </ul>
 </div>
-<div id="examples-of-contemporary-data" class="slide section level2">
-<h1>Examples of contemporary data</h1>
-<h3 id="taxicabs-and-the-shared-economy">Taxicabs and the Shared Economy</h3>
+<div id="examples-of-contemporary-data" class="section level2">
+<h2>Examples of contemporary data</h2>
+<div id="taxicabs-and-the-shared-economy" class="section level3">
+<h3>Taxicabs and the Shared Economy</h3>
 <ul>
 <li>A team of mathematicians and engineers has calculated that if taxi riders were willing to share a cab, New York City could reduce the current fleet of 13,500 taxis up to 40 percent. <a href="http://www.nytimes.com/2014/09/02/science/sharing-taxis-nyc-mathematics.html">Link to news story</a> and an <a href="http://www.hubcab.org/">interactive site</a> with the data.
 <ul>
@@ -43,7 +321,9 @@ Sarah Shy
 </ul></li>
 </ul></li>
 </ul>
-<h3 id="gapminder">Gapminder</h3>
+</div>
+<div id="gapminder" class="section level3">
+<h3>Gapminder</h3>
 <ul>
 <li>Income &amp; Life Expectancy:
 <ul>
@@ -59,14 +339,17 @@ Sarah Shy
 <li>Are we even looking at “data” here?</li>
 </ul></li>
 </ul>
-<h3 id="medicare-spending">Medicare Spending</h3>
+</div>
+<div id="medicare-spending" class="section level3">
+<h3>Medicare Spending</h3>
 <ul>
 <li>Newspaper article <a href="http://www.nytimes.com/2013/05/08/business/hospital-billing-varies-wildly-us-data-shows.html">here</a></li>
 <li>Data available <a href="http://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/Medicare-Provider-Charge-Data/index.html">here</a>.</li>
 </ul>
 </div>
-<div id="the-logic-of-this-course-less-volume-more-creativity." class="slide section level2">
-<h1>The logic of this course: Less volume, more creativity.</h1>
+</div>
+<div id="the-logic-of-this-course-less-volume-more-creativity." class="section level2">
+<h2>The logic of this course: Less volume, more creativity.</h2>
 <ul>
 <li>A minimal set of simple tools can be combined in powerful ways</li>
 <li>Individually these tools are introduced as simple “data moves”</li>
@@ -87,8 +370,8 @@ Sarah Shy
 </tbody>
 </table>
 </div>
-<div id="the-logic-of-this-course-less-volume-more-creativity.-1" class="slide section level2">
-<h1>The logic of this course: Less volume, more creativity.</h1>
+<div id="the-logic-of-this-course-less-volume-more-creativity.-1" class="section level2">
+<h2>The logic of this course: Less volume, more creativity.</h2>
 <p>We will start with some infrastructure for these techniques:</p>
 <ul>
 <li>basics of “tidy” data</li>
@@ -107,8 +390,8 @@ Sarah Shy
 <li>use of layering to develop rich graphics</li>
 </ul>
 </div>
-<div id="examples-from-many-fields" class="slide section level2">
-<h1>Examples from many fields</h1>
+<div id="examples-from-many-fields" class="section level2">
+<h2>Examples from many fields</h2>
 <p>Some data sets we will access for examples.</p>
 <pre>
 BabyNames                Names of children as recorded by the US Social
@@ -130,8 +413,8 @@ registeredVoters         A sample of the voter registration list for Wake County
                             North Carolina in Fall 2010.
 </pre>
 </div>
-<div id="exploratory-data-analysis-eda" class="slide section level2">
-<h1>Exploratory data analysis (EDA)</h1>
+<div id="exploratory-data-analysis-eda" class="section level2">
+<h2>Exploratory data analysis (EDA)</h2>
 <p>Due to the nature of the course and our goals, we will sometimes characterize our work from the paradigm of <em>Exploratory data analysis (EDA)</em>. Some goals for high-quality EDA include:</p>
 <ul>
 <li>Become acquainted with the data</li>
@@ -139,8 +422,8 @@ registeredVoters         A sample of the voter registration list for Wake County
 <li>Discover features in the data that impact modeling decisions</li>
 </ul>
 </div>
-<div id="orientation-to-class-resources" class="slide section level2">
-<h1>Orientation to Class Resources</h1>
+<div id="orientation-to-class-resources" class="section level2">
+<h2>Orientation to Class Resources</h2>
 <ul>
 <li>R and RStudio
 <ul>
@@ -174,7 +457,7 @@ registeredVoters         A sample of the voter registration list for Wake County
 <li>Use Piazza for most questions about course content, e.g. “How do I rename a variable?”; see syllabus for detail</li>
 </ul>
 </div>
-<div class="footnotes slide">
+<div class="footnotes">
 <hr />
 <ol>
 <li id="fn1"><p>Source : “Lego Color Bricks” by Alan Chia - Lego Color Bricks. Licensed under CC BY-SA 2.0 via <a href="http://commons.wikimedia.org/wiki/File:Lego_Color_Bricks.jpg#mediaviewer/File:Lego_Color_Bricks.jpg">Wikimedia Commons</a><a href="#fnref1" class="footnote-back">↩</a></p></li>
@@ -182,15 +465,50 @@ registeredVoters         A sample of the voter registration list for Wake County
 </ol>
 </div>
 
-  <!-- dynamically load mathjax for compatibility with self-contained -->
-  <script>
-    (function () {
-      var script = document.createElement("script");
-      script.type = "text/javascript";
-      script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
-      document.getElementsByTagName("head")[0].appendChild(script);
-    })();
-  </script>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 
 </body>
 </html>

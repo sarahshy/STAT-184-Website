@@ -1,10 +1,11 @@
 ---
-title: "STAT 184: Introduction to R"
+title: "STAT 184: Lecture 1"
 author: "Sarah Shy"
 date: "January 13, 2020"
 
-output: 
+output:
   slidy_presentation: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
