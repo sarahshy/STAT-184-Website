@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <meta name="author" content="Sarah Shy" />
+  <meta name="date" content="2020-01-13" />
+  <title>STAT 184: Introduction to R</title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <link href="site_libs/slidy-2/styles/slidy.css" rel="stylesheet" />
+  <script src="site_libs/slidy-2/scripts/slidy.js"></script>
+</head>
+<body>
+<div class="slide titlepage">
+  <h1 class="title">STAT 184: Introduction to R</h1>
+  <p class="author">
+Sarah Shy
+  </p>
+  <p class="date">January 13, 2020</p>
+</div>
+<div id="objectives" class="slide section level2">
+<h1>Objectives</h1>
+<ul>
+<li>quick introduction</li>
+<li>motivation of the course</li>
+<li>syllabus fly-over</li>
+</ul>
+</div>
+<div id="examples-of-contemporary-data" class="slide section level2">
+<h1>Examples of contemporary data</h1>
+<h3 id="taxicabs-and-the-shared-economy">Taxicabs and the Shared Economy</h3>
+<ul>
+<li>A team of mathematicians and engineers has calculated that if taxi riders were willing to share a cab, New York City could reduce the current fleet of 13,500 taxis up to 40 percent. <a href="http://www.nytimes.com/2014/09/02/science/sharing-taxis-nyc-mathematics.html">Link to news story</a> and an <a href="http://www.hubcab.org/">interactive site</a> with the data.
+<ul>
+<li>Traditional style: take a sample of taxi passengers. Ask them where they got on and where they got off the taxi.</li>
+<li>New style:
+<ul>
+<li>Every taxi transaction is registered, including GPS coordinates of flag up and flag down</li>
+<li>A taxi-hailing app can register all calls for service, even those that aren’t successful.</li>
+</ul></li>
+</ul></li>
+</ul>
+<h3 id="gapminder">Gapminder</h3>
+<ul>
+<li>Income &amp; Life Expectancy:
+<ul>
+<li><a href="https://www.gapminder.org/tools/#$state$time$value=2018;;&amp;chart-type=bubbles" class="uri">https://www.gapminder.org/tools/#$state$time$value=2018;;&amp;chart-type=bubbles</a><br />
+</li>
+<li>How many variables are being displayed here?</li>
+<li>What are they?</li>
+<li>What did you learn by watching the animation?</li>
+</ul></li>
+<li>Dollar Street
+<ul>
+<li><a href="https://www.gapminder.org/dollar-street/matrix" class="uri">https://www.gapminder.org/dollar-street/matrix</a></li>
+<li>Are we even looking at “data” here?</li>
+</ul></li>
+</ul>
+<h3 id="medicare-spending">Medicare Spending</h3>
+<ul>
+<li>Newspaper article <a href="http://www.nytimes.com/2013/05/08/business/hospital-billing-varies-wildly-us-data-shows.html">here</a></li>
+<li>Data available <a href="http://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/Medicare-Provider-Charge-Data/index.html">here</a>.</li>
+</ul>
+</div>
+<div id="the-logic-of-this-course-less-volume-more-creativity." class="slide section level2">
+<h1>The logic of this course: Less volume, more creativity.</h1>
+<ul>
+<li>A minimal set of simple tools can be combined in powerful ways</li>
+<li>Individually these tools are introduced as simple “data moves”</li>
+<li>The complexity of data use and presentation comes from combining these simple tools in order to achieve our specific purposes.</li>
+</ul>
+<table>
+<thead>
+<tr class="header">
+<th>Individual lego bricks are simple.<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a></th>
+<th>A complex model made of lego bricks <a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><img src="Lego_Color_Bricks.jpg" alt="Bricks" /></td>
+<td><img src="Trafalgar_Legoland_2003.jpg" alt="Trafalgar Legoland" /></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="the-logic-of-this-course-less-volume-more-creativity.-1" class="slide section level2">
+<h1>The logic of this course: Less volume, more creativity.</h1>
+<p>We will start with some infrastructure for these techniques:</p>
+<ul>
+<li>basics of “tidy” data</li>
+<li>commanding the computer to handle data and present the story we want to tell
+<ul>
+<li>focus on “exploratory data analysis”</li>
+<li>we will combine graphs, numerical summaries, and narrative</li>
+<li>we defer to future STAT courses for formal “modeling”</li>
+</ul></li>
+</ul>
+<p>In coming weeks, we will study</p>
+<ul>
+<li>relationships between data and graphical presentations</li>
+<li>proper form of data to make a graphic (or a model)</li>
+<li>how to “wrangle” data we have into the form needed for a graphic (or a model)</li>
+<li>use of layering to develop rich graphics</li>
+</ul>
+</div>
+<div id="examples-from-many-fields" class="slide section level2">
+<h1>Examples from many fields</h1>
+<p>Some data sets we will access for examples.</p>
+<pre>
+BabyNames                Names of children as recorded by the US Social
+                            Security Administration.
+CountryCentroids         Geographic location of countries
+CountryData              Many variables on countries from the 2014 CIA factbook.
+CountryGroups            Membership in Country Groups
+DirectRecoveryGroups     
+MedicareCharges          
+MedicareProviders        
+MigrationFlows           Human Migration between Countries
+Minneapolis2013          Ballots in the 2013 Mayoral election in Minneapolis
+NCI60                    Gene expression in cancer.
+NCI60cells               Cell Line descriptions in the NCI-60 dataset
+WorldCities              Cities and their populations
+ZipDemography            Demographic information for most US ZIP Codes (Postal Codes)
+ZipGeography             Geographic information by US Zip Codes (Postal Codes)
+registeredVoters         A sample of the voter registration list for Wake County, 
+                            North Carolina in Fall 2010.
+</pre>
+</div>
+<div id="exploratory-data-analysis-eda" class="slide section level2">
+<h1>Exploratory data analysis (EDA)</h1>
+<p>Due to the nature of the course and our goals, we will sometimes characterize our work from the paradigm of <em>Exploratory data analysis (EDA)</em>. Some goals for high-quality EDA include:</p>
+<ul>
+<li>Become acquainted with the data</li>
+<li>Explore intuition for research question</li>
+<li>Discover features in the data that impact modeling decisions</li>
+</ul>
+</div>
+<div id="orientation-to-class-resources" class="slide section level2">
+<h1>Orientation to Class Resources</h1>
+<ul>
+<li>R and RStudio
+<ul>
+<li><strong>R</strong> does the computations</li>
+<li><strong>RStudio</strong> is an interface to R that makes it easier to document your work, access nice features of R, and more</li>
+</ul></li>
+<li>git and GitHub
+<ul>
+<li><strong>git</strong> is version control software used to facilitate collaboration and project evolution</li>
+<li><strong>GitHub</strong> is a remote git respository hosting service</li>
+</ul></li>
+<li>Access to R &amp; RStudio
+<ul>
+<li>RStudio Server: <a href="https://lat.tlt.psu.edu/home/remoteaccess/oss-web-apps/">https://lat.tlt.psu.edu/home/remoteaccess/oss-web-apps/</a>
+<ul>
+<li>Choose <strong>Login to RStudio</strong></li>
+<li>You only need an internet connection, a current web browser, &amp; PSU login credentials</li>
+<li>Pro: Penn State handles most of the configuration</li>
+<li>Pro: Access all your R and RStudio stuff from any computer anywhere</li>
+<li>Con: Takes some practice to get used to loading files on &amp; off the server</li>
+</ul></li>
+<li>Installing on your own computer. You need both of these:
+<ul>
+<li><a href="http://cran.rstudio.com/">R software</a></li>
+<li><a href="http://www.rstudio.com/products/rstudio/download/preview/">RStudio desktop software</a>.</li>
+<li>Packages: Paste the following R commands into your RStudio Console and run it (press Enter):</li>
+</ul></li>
+</ul></li>
+<li>Assignments, grades, etc will be handled with Canvas<br />
+</li>
+<li>Use Piazza for most questions about course content, e.g. “How do I rename a variable?”; see syllabus for detail</li>
+</ul>
+</div>
+<div class="footnotes slide">
+<hr />
+<ol>
+<li id="fn1"><p>Source : “Lego Color Bricks” by Alan Chia - Lego Color Bricks. Licensed under CC BY-SA 2.0 via <a href="http://commons.wikimedia.org/wiki/File:Lego_Color_Bricks.jpg#mediaviewer/File:Lego_Color_Bricks.jpg">Wikimedia Commons</a><a href="#fnref1" class="footnote-back">↩</a></p></li>
+<li id="fn2"><p>Source: <em>Trafalgar Legoland 2003</em> by Kaihsu Tai - Kaihsu Tai. Licensed under CC BY-SA 3.0 via <a href="http://commons.wikimedia.org/wiki/File:Trafalgar_Legoland_2003.jpg#mediaviewer/File:Trafalgar_Legoland_2003.jpg">Wikimedia Commons</a><a href="#fnref2" class="footnote-back">↩</a></p></li>
+</ol>
+</div>
+
+  <!-- dynamically load mathjax for compatibility with self-contained -->
+  <script>
+    (function () {
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+      document.getElementsByTagName("head")[0].appendChild(script);
+    })();
+  </script>
+
+</body>
+</html>
