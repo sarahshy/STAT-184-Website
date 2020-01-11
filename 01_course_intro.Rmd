@@ -1,0 +1,146 @@
+---
+title: "STAT 184: Introduction to R"
+author: "Sarah Shy"
+date: "January 13, 2020"
+
+output: 
+  slidy_presentation: default
+  html_notebook: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Objectives 
+
+- quick introduction
+- motivation of the course
+- syllabus fly-over
+
+
+
+## Examples of contemporary data
+
+### Taxicabs and the Shared Economy
+
+- A team of mathematicians and engineers has calculated that if taxi riders were willing to share a cab, New York City could reduce the current fleet of 13,500 taxis up to 40 percent. [Link to news story](http://www.nytimes.com/2014/09/02/science/sharing-taxis-nyc-mathematics.html) and an [interactive site](http://www.hubcab.org/) with the data.
+    - Traditional style: take a sample of taxi passengers.  Ask them where they got on and where they got off the taxi.
+    - New style: 
+        - Every taxi transaction is registered, including GPS coordinates of flag up and flag down
+        - A taxi-hailing app can register all calls for service, even those that aren't successful.
+
+
+### Gapminder
+
+- Income & Life Expectancy:  
+    - <https://www.gapminder.org/tools/#$state$time$value=2018;;&chart-type=bubbles>  
+    - How many variables are being displayed here?
+    - What are they?
+    - What did you learn by watching the animation?
+- Dollar Street 
+    - <https://www.gapminder.org/dollar-street/matrix>
+    - Are we even looking at "data" here?
+
+
+### Medicare Spending
+
+- Newspaper article [here](http://www.nytimes.com/2013/05/08/business/hospital-billing-varies-wildly-us-data-shows.html)
+- Data available [here](http://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/Medicare-Provider-Charge-Data/index.html).
+
+
+## The logic of this course: Less volume, more creativity.
+
+- A minimal set of simple tools can be combined in powerful ways
+- Individually these tools are introduced as simple "data moves" 
+- The complexity of data use and presentation comes from combining these simple tools in order to achieve our specific purposes.
+
+Individual lego bricks are simple.^[Source : "Lego Color Bricks" by Alan Chia - Lego Color Bricks. Licensed under CC BY-SA 2.0 via [Wikimedia Commons](http://commons.wikimedia.org/wiki/File:Lego_Color_Bricks.jpg#mediaviewer/File:Lego_Color_Bricks.jpg)]  | A complex model made of lego bricks ^[Source: *Trafalgar Legoland 2003* by Kaihsu Tai - Kaihsu Tai. Licensed under CC BY-SA 3.0 via [Wikimedia Commons](http://commons.wikimedia.org/wiki/File:Trafalgar_Legoland_2003.jpg#mediaviewer/File:Trafalgar_Legoland_2003.jpg)]|
+----------------------------- | -----------------------------  |
+![Bricks](Lego_Color_Bricks.jpg)| ![Trafalgar Legoland](Trafalgar_Legoland_2003.jpg) |
+
+
+
+## The logic of this course: Less volume, more creativity.
+
+We will start with some infrastructure for these techniques:
+
+- basics of "tidy" data
+- commanding the computer to handle data and present the story we want to tell
+    - focus on "exploratory data analysis"
+    - we will combine graphs, numerical summaries, and narrative
+    - we defer to future STAT courses for formal "modeling"
+
+In coming weeks, we will study
+
+- relationships between data and graphical presentations
+- proper form of data to make a graphic (or a model) 
+- how to "wrangle" data we have into the form needed for a graphic (or a model)
+- use of layering to develop rich graphics 
+
+
+
+## Examples from many fields
+
+Some data sets we will access for examples.
+
+<pre>
+BabyNames                Names of children as recorded by the US Social
+                            Security Administration.
+CountryCentroids         Geographic location of countries
+CountryData              Many variables on countries from the 2014 CIA factbook.
+CountryGroups            Membership in Country Groups
+DirectRecoveryGroups     
+MedicareCharges          
+MedicareProviders        
+MigrationFlows           Human Migration between Countries
+Minneapolis2013          Ballots in the 2013 Mayoral election in Minneapolis
+NCI60                    Gene expression in cancer.
+NCI60cells               Cell Line descriptions in the NCI-60 dataset
+WorldCities              Cities and their populations
+ZipDemography            Demographic information for most US ZIP Codes (Postal Codes)
+ZipGeography             Geographic information by US Zip Codes (Postal Codes)
+registeredVoters         A sample of the voter registration list for Wake County, 
+                            North Carolina in Fall 2010.
+</pre>
+
+
+
+## Exploratory data analysis (EDA)
+
+Due to the nature of the course and our goals, we will sometimes characterize our work from the paradigm of *Exploratory data analysis (EDA)*.  Some goals for high-quality EDA include:
+
+- Become acquainted with the data 
+- Explore intuition for research question 
+- Discover features in the data that impact modeling decisions 
+
+
+
+## Orientation to Class Resources
+
+- R and RStudio 
+    - **R** does the computations
+    - **RStudio** is an interface to R that makes it easier to document your work, access nice features of R, and more
+
+- git and GitHub
+    - **git** is version control software used to facilitate collaboration and project evolution
+    - **GitHub** is a remote git respository hosting service
+
+- Access to R & RStudio
+    - RStudio Server: [https://lat.tlt.psu.edu/home/remoteaccess/oss-web-apps/](https://lat.tlt.psu.edu/home/remoteaccess/oss-web-apps/)
+        - Choose **Login to RStudio**
+        - You only need an internet connection, a current web browser, & PSU login credentials
+        - Pro: Penn State handles most of the configuration
+        - Pro: Access all your R and RStudio stuff from any computer anywhere
+        - Con: Takes some practice to get used to loading files on & off the server
+    - Installing on your own computer.  You need both of these:
+        - [R software](http://cran.rstudio.com/)
+        - [RStudio desktop software](http://www.rstudio.com/products/rstudio/download/preview/).
+        - Packages: Paste the following R commands into your RStudio Console and run it (press Enter):
+
+- Assignments, grades, etc will be handled with Canvas  
+- Use Piazza for most questions about course content, e.g. "How do I rename a variable?"; see syllabus for detail
+
+
+
+
