@@ -5,10 +5,10 @@ date: "January 13, 2020"
 
 output:
   slidy_presentation: default
-  html_document: default
 ---
 
 ```{r setup, include=FALSE}
+library(knitr)
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
@@ -55,9 +55,10 @@ knitr::opts_chunk$set(echo = FALSE)
 - Individually these tools are introduced as simple "data moves" 
 - The complexity of data use and presentation comes from combining these simple tools in order to achieve our specific purposes.
 
-Individual lego bricks are simple.^[Source : "Lego Color Bricks" by Alan Chia - Lego Color Bricks. Licensed under CC BY-SA 2.0 via [Wikimedia Commons](http://commons.wikimedia.org/wiki/File:Lego_Color_Bricks.jpg#mediaviewer/File:Lego_Color_Bricks.jpg)]  | A complex model made of lego bricks ^[Source: *Trafalgar Legoland 2003* by Kaihsu Tai - Kaihsu Tai. Licensed under CC BY-SA 3.0 via [Wikimedia Commons](http://commons.wikimedia.org/wiki/File:Trafalgar_Legoland_2003.jpg#mediaviewer/File:Trafalgar_Legoland_2003.jpg)]|
+Individual lego bricks are simple.^[Source : "Lego Color Bricks" by Alan Chia - Lego Color Bricks. Licensed under CC BY-SA 2.0 via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Lego_Color_Bricks.jpg#mediaviewer/File:Lego_Color_Bricks.jpg)]  | A complex model made of lego bricks ^[Source: *Trafalgar Legoland 2003* by Kaihsu Tai - Kaihsu Tai. Licensed under CC BY-SA 3.0 via [Wikimedia Commons](http://commons.wikimedia.org/wiki/File:Trafalgar_Legoland_2003.jpg#mediaviewer/File:Trafalgar_Legoland_2003.jpg)]|
 ----------------------------- | -----------------------------  |
-![Bricks](Lego_Color_Bricks.jpg)| ![Trafalgar Legoland](Trafalgar_Legoland_2003.jpg) |
+
+![Bricks](Images/Lego_Color_Bricks.jpg)| ![Trafalgar Legoland](Images/Trafalgar_Legoland_2003.jpg) |
 
 
 

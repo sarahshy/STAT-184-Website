@@ -6,7 +6,5 @@ title: "Weekly Schedule and Assignments"
 
 [Week 1: Course Intro (Slides)](https://sarahshy.github.io/STAT-184-Website/01_course_intro.html)  
 
-[Week 1: Course Intro (Doc)](https://sarahshy.github.io/STAT-184-Website/01_course_intro.nb.html)
-
 ## Week 2
 Week 2: Slides (Tidy Data)
