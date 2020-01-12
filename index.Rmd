@@ -8,13 +8,13 @@ date: '`r paste("Updated on", Sys.time())`'
 ## Teaching Team
 **Instructor**  
 Sarah Shy  
-Email: shy [at] psu [dot] edu  
+Email: shy@psu.edu  
 Office: 301 Thomas Building  
 Office hours: (TBD)
 
 **Teaching Assistant**  
 Jeffrey Yan  
-Email: jzy5197 [at] psu [dot] edu
+Email: jzy5197@psu.edu
 
 ## Class Time & Location
 **Time:** Wed/Fri 10:10-11:00am  
@@ -29,21 +29,30 @@ Email: jzy5197 [at] psu [dot] edu
 Bring a laptop to class each day if you have one. I encourage students to work collaboratively, so I’d like to have at least one laptop for every 2 or 3 students. Please bring your laptop each week if you have one, but there’s no need to buy a laptop if you don’t already have one.
 
 #### **Textbooks**
-(required): **Data Computing: An Introduction to Wrangling and Visualisation with R** by Daniel
-Kaplan  
-(recommended): **Advanced R by Hadley Wickham** (free ebook: http://adv-r.had.co.nz/)  
-(recommended): **R for Everyone: Advanced Analytics and Graphics** by Jared P. Lander
+**Data Computing: An Introduction to Wrangling and Visualisation with R (2nd edition)** by
+Daniel Kaplan & Matthew Beckman (free ebook: https://dtkaplan.github.io/DataComputingEbook/)
+(recommended): **Advanced R** by Hadley Wickham (free ebook: http://adv-r.had.co.nz/)
+(recommended): **An Introduction to Statistical Programming Methods with R** by Beckman, Guerrier,
+Lee, & Molinari (free ebook: https://smac-group.github.io/ds/)
 
 <br/>
+
+## Piazza
+We will be using Piazza for nearly all class Q&A, to help you benefit from each other’s questions and the collective knowledge of your classmates, professor, TA. Questions should be posted to the entire class (for content-related questions). I encourage you to ask questions if you are struggling to understand a concept, and to answer your classmates’ questions when you can.
+
+**Do NOT** use Piazza for personal/private matters (grades, accommodations, etc); email those questions or comments to the professor/TA directly or discuss them in person.
+
+## Email
+Most issues about classroom activities should be posted to Piazza, but you should use Canvas message or email (or a conversation in person) for all personal or private matters.
 
 ## Grading
 Learning outcomes will be assessed based on performance in each of the following categories accompanied by their impact on the overall grade:  
 
-30% Semester Project  
-30% In-class Assignments  
-15% Reading Quizzes  
-15% Homework  
-10% Participation  
+30% Semester Project
+30% In-class Assignments
+15% Reading Quizzes
+15% Homework
+10% Participation
 
 Final letter grades will be determined as follows:  
 A : 93-100%  
@@ -56,14 +65,22 @@ C : 70-76%
 D : 60-69%  
 F : < 60%
 
+#### **Late Work**
+Most assignments are turned in electronically on Canvas, so the official time stamp on Canvas will be used to determine late work. Basically, there is no “on time” with Canvas, so even 8:00:00.001am is technically after 8am. In Canvas, as the cliche says: “If you’re not early, you’re late.” For other assignments, Canvas will automatically penalize late work 25% per day, e.g.:
+
+- 75% credit for the first 24 hours after the due time/date;
+- 50% credit between 24 & 48 hours after the due time/date;
+- 25% credit between 48 & 72 hours after the due time/date;
+- Zero credit awarded after 72 hours beyond the due date/time
+
 #### **Homework**
-Each week you will be asked to complete and submit three assignments: Reading quizzes, in-class activities, and homework. Weekly homework assignments will be due before class in order to assess understanding and content mastery. Students are encouraged to work together on homework assignments, but each student must hand in their own work. Late homework is accepted for one week after the original due date and scored using a 50% penalty.
+Weekly homework assignments will be due the night before class (11:59 PM) in order to assess understanding and content mastery. Students are encouraged to work together on homework assignments, but each student must hand in their own work. Late homework is accepted for one week after the original due date and scored using a 50% penalty.
+
+#### **Reading Quizzes**
+Weekly reading quizzes, administered through Canvas, will also be due the night before class in order to assess comprehension of the reading assignment that will be discussed each week. This allows students to see new content and concepts for the first time at their own pace in order to more effectively use class time to emphasize main points, clear up confusion, etc. The goal of the reading quiz is to hold students accountable for completing the reading each week before class.
 
 #### **In-class Activities**
 Weekly in-class assignments may include an activity or a quiz assigned and completed in part or whole during class. The format and length of in-class assignments will vary as warranted by the subject matter each week, although each assignments will be given the same weight toward the overall grade. There are no make-up assignments, although the lowest score will be dropped at the end of the semester.
-
-#### **Reading Quizzes**
-Weekly reading quizzes will be due before class in order to assess comprehension of the reading assignment that will be discussed each week. This allows students to see new content and concepts for the first time at their own pace in order to more effectively use class time to emphasize main points, clear up confusion, etc. The goal of the reading quiz is to hold students accountable for completing the reading each week before class.
 
 #### **Semester Project**
 The final project provides an opportunity to combine content learned throughout the course for use in some realistic application. Each student is required to individually complete and sumbit their own work, but students consult one another with questions (post questions on Piazza, chat with group members, etc). A successful project will find one or more real & interesting data sets, and use their R programming skills to tell a story that reveals insights from the data. The weekly group activities in the Data Computing text book are good examples of the type of work expected for a successful project, with the differences that you are expected to do the work independently using your own data (not loaded from an R package), and you are responsible for the narrative explaining your reasoning and conclusions as you work through the analysis.
@@ -109,6 +126,19 @@ Some goals and objectives may be reduced or expanded as time permits, but a tent
 <br/>
 
 ## Policies & Resources
+
+**Counseling and Psychological Services (CAPS)**
+
+Many students at Penn State face personal challenges or have psychological needs that may interfere with interfere with their academic progress, social development, or emotional wellbeing. The university offers a variety of confidential services to help you through difficult times, including individual and group counseling, crisis intervention, consultations, online chats, and mental health screenings. These services are provided by staff who welcome all students and embrace a philosophy respectful of clients’ cultural and religious backgrounds, and sensitive to differences in race, ability, gender identity and sexual orientation.
+
+Counseling and Psychological Services at University Park (CAPS):
+
+- Phone: 814-863-0395
+- Web: http://studentaffairs.psu.edu/counseling/
+
+**Penn State Crisis Line (24 hours/7 days/week):** 877-229-6400
+**Crisis Text Line (24 hours/7 days/week):** Text LIONS to 741741
+
 #### **ECoS Code of Mutual Respect**
 The Eberly College of Science Code of Mutual Respect and Cooperation embodies the values that we hope our faculty, staff, and students possess and will endorse to make the Eberly College of Science a place where every individual feels respected and valued, as well as challenged and rewarded.
 
