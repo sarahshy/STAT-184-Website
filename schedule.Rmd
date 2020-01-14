@@ -4,7 +4,7 @@ title: "Weekly Schedule and Assignments"
 
 ## Week 1
 
-[Week 1: Course Intro (Slides)](https://sarahshy.github.io/STAT-184-Website/01_course_intro.html)  
+[Week 1: Course Intro (Slides)](https://sarahshy.github.io/PSU-STAT-184/current/ClassNotes/week-01/course_intro.nb.html)  
 
 Assignments:  
 
