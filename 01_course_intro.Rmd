@@ -1,6 +1,6 @@
 ---
 title: "STAT 184: Lecture 1"
-author: "Sarah Shy"
+author: "Slides by Matthew Beckman"
 date: "January 13, 2020"
 
 output:
