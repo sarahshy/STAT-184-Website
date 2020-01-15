@@ -1,6 +1,7 @@
 ---
 title: "Welcome to STAT 184.1 (Spring 2020)"
 date: '`r paste("Updated on", Sys.time())`'
+output: pdf_document
 ---
 
 <br/>
@@ -48,11 +49,13 @@ Most issues about classroom activities should be posted to Piazza, but you shoul
 ## Grading
 Learning outcomes will be assessed based on performance in each of the following categories accompanied by their impact on the overall grade:  
 
-30% Semester Project
-30% In-class Assignments
-15% Reading Quizzes
-15% Homework
-10% Participation
+25% Final Exam  
+20% Midterm Exam  
+15% Semester Project  
+15% Synthesis Projects  
+15% Exercises  
+5% Reading Quizzes  
+5% Participation  
 
 Final letter grades will be determined as follows:  
 A : 93-100%  

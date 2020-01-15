@@ -15,6 +15,6 @@ Assignments:
 - [Week 1: GitHub Assignment]  
 
 ## Week 2
-Week 2: Slides (Tidy Data)
+[Week 2: Slides (Tidy Data)](https://sarahshy.github.io/PSU-STAT-184/current/ClassNotes/week-02/tidyData-computing.html)
 
 Assignments:
