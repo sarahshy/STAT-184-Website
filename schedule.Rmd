@@ -18,3 +18,4 @@ Assignments:
 [Week 2: Slides (Tidy Data)](https://sarahshy.github.io/PSU-STAT-184/current/ClassNotes/week-02/tidyData-computing.html)
 
 Assignments:
+

@@ -21,8 +21,15 @@ Email: jzy5197@psu.edu
 **Time:** Wed/Fri 10:10-11:00am  
 **Location:** Keller 115
 
+## Office hours
+| Time         | Location      | Who         |
+| ------------ |:-------------:| -----------:|
+| Monday 1-2pm | Thomas 330    | Jeffrey Yan |
+| (TBD)        | (TBD)         | TJ          |
+| (TBD)        | Thomas 301    | Sarah Shy   |
+
 ## Websites & Course Links
-**Course Webpage:** https://sarahshy.github.io/STAT-184-Website  
+**Course Webpage:** https://sarahshy.github.io/STAT-184-Website 
 **Weekly schedule and assignments:** https://sarahshy.github.io/STAT-184-Website/schedule.html
 
 ## Laptops & Textbooks
@@ -31,8 +38,8 @@ Bring a laptop to class each day if you have one. I encourage students to work c
 
 #### **Textbooks**
 **Data Computing: An Introduction to Wrangling and Visualisation with R (2nd edition)** by
-Daniel Kaplan & Matthew Beckman (free ebook: https://dtkaplan.github.io/DataComputingEbook/)
-(recommended): **Advanced R** by Hadley Wickham (free ebook: http://adv-r.had.co.nz/)
+Daniel Kaplan & Matthew Beckman (free ebook: https://dtkaplan.github.io/DataComputingEbook/)  
+(recommended): **Advanced R** by Hadley Wickham (free ebook: http://adv-r.had.co.nz/)  
 (recommended): **An Introduction to Statistical Programming Methods with R** by Beckman, Guerrier,
 Lee, & Molinari (free ebook: https://smac-group.github.io/ds/)
 
