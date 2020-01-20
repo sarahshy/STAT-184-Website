@@ -21,7 +21,7 @@ Email: jzy5197@psu.edu
 **Time:** Wed/Fri 10:10-11:00am  
 **Location:** Keller 115
 
-## Office hours
+## Office hours (still working on this)
 | Time         | Location      | Who         |
 | ------------ |:-------------:| -----------:|
 | Monday 1-2pm | Thomas 330    | Jeffrey Yan |
@@ -46,7 +46,7 @@ Lee, & Molinari (free ebook: https://smac-group.github.io/ds/)
 <br/>
 
 ## Piazza
-We will be using Piazza for nearly all class Q&A, to help you benefit from each other’s questions and the collective knowledge of your classmates, professor, TA. Questions should be posted to the entire class (for content-related questions). I encourage you to ask questions if you are struggling to understand a concept, and to answer your classmates’ questions when you can.
+We will be using Piazza for nearly all class Q&A, to help you benefit from each other’s questions and the collective knowledge of your classmates, professor, TA. Questions should be posted to the entire class (for content-related questions). I encourage you to ask questions if you are struggling to understand a concept, and to answer your classmates’ questions when you can.qwerqwer
 
 **Do NOT** use Piazza for personal/private matters (grades, accommodations, etc); email those questions or comments to the professor/TA directly or discuss them in person.
 
@@ -57,9 +57,9 @@ Most issues about classroom activities should be posted to Piazza, but you shoul
 Learning outcomes will be assessed based on performance in each of the following categories accompanied by their impact on the overall grade:  
 
 25% Final Exam  
-20% Midterm Exam  
+20% Midterm Exam (Friday, March 20)  
 15% Semester Project  
-15% Synthesis Projects  
+15% In-class labs
 15% Exercises  
 5% Reading Quizzes  
 5% Participation  
