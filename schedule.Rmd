@@ -8,14 +8,17 @@ title: "Weekly Schedule and Assignments"
 
 [Week 1: Course Intro (Doc)](https://sarahshy.github.io/PSU-STAT-184/current/ClassNotes/week-01/course_intro.nb.html)  
 
-Assignments:  
+Assignments (see Canvas for details):  
 
 - Canvas reading quiz (DC Chapter 1 & 2)
-- [Week 1: DataCamp Assignment]  
-- [Week 1: GitHub Assignment]  
+- Week 1: DataCamp Assignment
+- Week 1: GitHub Assignment 
 
 ## Week 2
 [Week 2: Slides (Tidy Data)](https://sarahshy.github.io/PSU-STAT-184/current/ClassNotes/week-02/tidyData-computing.html)
 
 Assignments:
 
+- Canvas reading quiz (DC Chapter 3 & 4)
+- Lab activity: Tidy data
+- Homework: DC eBook Ch. 1 & 2 Exercises

@@ -24,9 +24,10 @@ Email: jzy5197@psu.edu
 ## Office hours (still working on this)
 | Time         | Location      | Who         |
 | ------------ |:-------------:| -----------:|
-| Monday 1-2pm | Thomas 330    | Jeffrey Yan |
-| (TBD)        | (TBD)         | TJ          |
-| (TBD)        | Thomas 301    | Sarah Shy   |
+| Monday 1-2pm | Thomas 330 (Stats lounge)   | Jeffrey |
+| Monday 2-3pm | Thomas 330    | Kim |
+| Tuesday 1-2pm   | Thomas 330 | TJ  |
+| By appointment   | Thomas 301    | Sarah Shy |
 
 ## Websites & Course Links
 **Course Webpage:** https://sarahshy.github.io/STAT-184-Website 
