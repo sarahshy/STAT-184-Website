@@ -1,5 +1,6 @@
 ---
 title: "Weekly Schedule and Assignments"
+output: pdf_document
 ---
 
 ## Week 1

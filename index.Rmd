@@ -1,7 +1,6 @@
 ---
 title: "Welcome to STAT 184.1 (Spring 2020)"
 date: '`r paste("Updated on", Sys.time())`'
-output: pdf_document
 ---
 
 <br/>
@@ -9,9 +8,7 @@ output: pdf_document
 ## Teaching Team
 **Instructor**  
 Sarah Shy  
-Email: shy@psu.edu  
-Office: 301 Thomas Building  
-Office hours: (TBD)
+Email: shy@psu.edu
 
 **Teaching Assistant**  
 Jeffrey Yan  
