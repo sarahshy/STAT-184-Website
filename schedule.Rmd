@@ -8,7 +8,7 @@ title: "Weekly Schedule and Assignments"
 
 [Week 1: Course Intro (Doc)](https://sarahshy.github.io/PSU-STAT-184/current/ClassNotes/week-01/course_intro.nb.html)  
 
-Assignments (see Canvas for details):  
+Assignments (Due Tuesday, January 21 11:59pm):  
 
 - Canvas reading quiz (DC Chapter 1 & 2)
 - Week 1: DataCamp Assignment
@@ -17,7 +17,7 @@ Assignments (see Canvas for details):
 ## Week 2
 [Week 2: Slides (Tidy Data)](https://sarahshy.github.io/PSU-STAT-184/current/ClassNotes/week-02/tidyData-computing.html)
 
-Assignments:
+Assignments (Due Tuesday, January 28 11:59pm):
 
 - Canvas reading quiz (DC Chapter 3 & 4)
 - Lab activity: Tidy data
