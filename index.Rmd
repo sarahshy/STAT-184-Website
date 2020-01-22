@@ -18,7 +18,7 @@ Email: jzy5197@psu.edu
 **Time:** Wed/Fri 10:10-11:00am  
 **Location:** Keller 115
 
-## Office hours (still working on this)
+## Office hours
 | Time         | Location      | Who         |
 | ------------ |:-------------:| -----------:|
 | Monday 1-2pm | Thomas 330 (Stats lounge)   | Jeffrey |
@@ -83,7 +83,7 @@ Most assignments are turned in electronically on Canvas, so the official time st
 - Zero credit awarded after 72 hours beyond the due date/time
 
 #### **Homework**
-Weekly homework assignments will be due the night before class (11:59 PM) in order to assess understanding and content mastery. Students are encouraged to work together on homework assignments, but each student must hand in their own work. Late homework is accepted for one week after the original due date and scored using a 50% penalty.
+Weekly homework assignments will be due the night before class (11:59 PM) in order to assess understanding and content mastery. Students are encouraged to work together on homework assignments, but each student must hand in their own work.
 
 #### **Reading Quizzes**
 Weekly reading quizzes, administered through Canvas, will also be due the night before class in order to assess comprehension of the reading assignment that will be discussed each week. This allows students to see new content and concepts for the first time at their own pace in order to more effectively use class time to emphasize main points, clear up confusion, etc. The goal of the reading quiz is to hold students accountable for completing the reading each week before class.
