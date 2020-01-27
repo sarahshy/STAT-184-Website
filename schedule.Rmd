@@ -22,3 +22,12 @@ Assignments (Due Tuesday, January 28 11:59pm):
 - Canvas reading quiz (DC Chapter 3 & 4)
 - Lab activity: Tidy data
 - Homework: DC eBook Ch. 1 & 2 Exercises
+
+## Week 3
+[Week 3: Slides (Command Patterns, GitHub, RMarkdown)](https://mdbeckman.github.io/PSU-STAT-184/2019%20Fall/ClassNotes/week-03/week3-notes.html)
+
+Assignments (Due Tuesday, February 4 11:59pm):
+
+- Canvas reading quiz (DC Chapters 5 & 6)
+- Lab activity: Markdown Class Schedule
+- Homework: DC eBook Ch. 3 & 4 Exercises (Submit PDF on Canvas)
