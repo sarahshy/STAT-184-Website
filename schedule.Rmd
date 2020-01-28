@@ -24,7 +24,9 @@ Assignments (Due Tuesday, January 28 11:59pm):
 - Homework: DC eBook Ch. 1 & 2 Exercises
 
 ## Week 3
-[Week 3: Slides (Command Patterns, GitHub, RMarkdown)](https://mdbeckman.github.io/PSU-STAT-184/2019%20Fall/ClassNotes/week-03/week3-notes.html)
+[Week 3: Command Patterns, GitHub, RMarkdown (Slides)](https://mdbeckman.github.io/PSU-STAT-184/2019%20Fall/ClassNotes/week-03/week3-notes.html)
+
+[Week 3: Command Patterns, GitHub, RMarkdown (Doc)](https://mdbeckman.github.io/PSU-STAT-184/current/ClassNotes/week-03/week3-notes.nb.html)
 
 Assignments (Due Tuesday, February 4 11:59pm):
 
