@@ -33,3 +33,14 @@ Assignments (Due Tuesday, February 4 11:59pm):
 - Canvas reading quiz (DC Chapters 5 & 6)
 - Lab activity: Markdown Class Schedule
 - Homework: DC eBook Ch. 3 & 4 Exercises (Submit PDF on Canvas)
+
+
+## Week 4
+[Week 4: Command Patterns, GitHub, RMarkdown (Slides)](https://mdbeckman.github.io/PSU-STAT-184/2019%20Fall/ClassNotes/week-03/week3-notes.html)
+
+
+Assignments (Due Tuesday, February 11 11:59pm):
+
+- Canvas reading quiz (DC Chapter 7)
+- Lab activity: Graphical Exploration
+- Homework: DC eBook Ch. 5 & 6 Exercises (Submit R Notebook on Canvas, Rmd and Notebook on GitHub)
