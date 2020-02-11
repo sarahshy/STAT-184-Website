@@ -59,3 +59,14 @@ Assignments (Due Tuesday, February 18 11:59pm):
 - Canvas reading quiz (DC Chapter 9)
 - Lab activity: HELPrct
 - Homework: DC eBook Ch. 7 Exercises (Submit R Notebook on Canvas, Rmd and Notebook on GitHub)
+
+## Week 6
+[Week 6: More Wrangling and Data Verbs (Slides)]()
+
+[Week 6: More Wrangling and Data Verbs (Doc)]()
+
+Assignments (Due Tuesday, February 25 11:59pm):
+
+- Canvas reading quiz (DC Chapter 10)
+- Lab activity: Popular Names
+- Homework: DC eBook Ch. 9 Exercises (Submit R Notebook on Canvas, Rmd and Notebook on GitHub)
