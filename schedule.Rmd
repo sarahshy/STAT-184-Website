@@ -37,6 +37,7 @@ Assignments (Due Tuesday, February 4 11:59pm):
 
 ## Week 4
 [Week 4: Visualization Concepts (Slides)](https://mdbeckman.github.io/PSU-STAT-184/2019%20Fall/ClassNotes/week-04/VisualizationConcepts.html)
+
 [Week 4: Visualization Concepts (Slides)](https://mdbeckman.github.io/PSU-STAT-184/2019%20Fall/ClassNotes/week-04/VisualizationConcepts.nb.html)
 
 
@@ -49,6 +50,7 @@ Assignments (Due Tuesday, February 11 11:59pm):
 
 ## Week 5
 [Week 5: Wrangling and Data Verbs (Slides)](https://mdbeckman.github.io/PSU-STAT-184/2019%20Fall/ClassNotes/week-05/WranglingDataVerbIntro.html)
+
 [Week 5: Wrangling and Data Verbs (Doc)](https://mdbeckman.github.io/PSU-STAT-184/current/ClassNotes/week-05/WranglingDataVerbIntro.nb.html)
 
 
