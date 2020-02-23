@@ -61,12 +61,23 @@ Assignments (Due Tuesday, February 18 11:59pm):
 - Homework: DC eBook Ch. 7 Exercises (Submit R Notebook on Canvas, Rmd and Notebook on GitHub)
 
 ## Week 6
-[Week 6: More Wrangling and Data Verbs (Slides)]()
+[Week 6: More Wrangling and Data Verbs (Slides)](https://mdbeckman.github.io/PSU-STAT-184/current/ClassNotes/week-06/WranglingDataVerb2.html)
 
-[Week 6: More Wrangling and Data Verbs (Doc)]()
+[Week 6: More Wrangling and Data Verbs (Doc)](https://mdbeckman.github.io/PSU-STAT-184/current/ClassNotes/week-06/WranglingDataVerb2.nb.html)
 
 Assignments (Due Tuesday, February 25 11:59pm):
 
 - Canvas reading quiz (DC Chapter 10)
 - Lab activity: Popular Names
-- Homework: DC eBook Ch. 9 Exercises (Submit R Notebook on Canvas, Rmd and Notebook on GitHub)
+- Homework: DC eBook Ch. 10 Exercises (Submit R Notebook on Canvas, Rmd and Notebook on GitHub)
+
+## Week 7
+[Week 7: Table Joins (Slides)](https://mdbeckman.github.io/PSU-STAT-184/current/ClassNotes/week-07/Joins.html#(1))
+
+[Week 7: More Wrangling and Data Verbs (Doc)](https://mdbeckman.github.io/PSU-STAT-184/current/ClassNotes/week-07/Joins.nb.html)
+
+Assignments (Due Tuesday, March 3 11:59pm):
+
+- Canvas reading quiz (DC Chapter 8: Graphics & their grammar)
+- Lab activity: Bird Species
+- Homework: DC eBook Ch. 10 Exercises (Submit R Notebook on Canvas, Rmd and Notebook on GitHub)
