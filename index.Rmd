@@ -19,8 +19,8 @@ Email: jzy5197@psu.edu
 **Location:** Keller 115
 
 ## Office hours
-| Time         | Location      | Who         | Zoom Link |
-| ------------ |:-------------:| -----------:|
+| Time         | Location      | Who         | Zoom Link    |
+| ------------ |:-------------:| -----------:|  -----------:|
 | Monday 1-2pm | Thomas 330 (Stats lounge)   | Jeffrey | https://psu.zoom.us/j/704750662 |
 | Monday 2-3pm | Thomas 330    | Kim |  |
 | Tuesday 1-2pm   | Thomas 330 | TJ  |  |
