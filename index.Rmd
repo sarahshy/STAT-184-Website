@@ -29,6 +29,7 @@ Email: jzy5197@psu.edu
 
 ## Websites & Course Links
 **Course Webpage:** https://sarahshy.github.io/STAT-184-Website 
+
 **Weekly schedule and assignments:** https://sarahshy.github.io/STAT-184-Website/schedule.html
 
 ## Laptops & Textbooks
