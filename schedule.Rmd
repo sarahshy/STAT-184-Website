@@ -72,12 +72,26 @@ Assignments (Due Tuesday, February 25 11:59pm):
 - Homework: DC eBook Ch. 10 Exercises (Submit R Notebook on Canvas, Rmd and Notebook on GitHub)
 
 ## Week 7
-[Week 7: Table Joins (Slides)](https://mdbeckman.github.io/PSU-STAT-184/current/ClassNotes/week-07/Joins.html#(1))
+[Week 7: Table Joins (Slides)](https://mdbeckman.github.io/PSU-STAT-184/current/ClassNotes/week-07/Joins.html)
 
-[Week 7: More Wrangling and Data Verbs (Doc)](https://mdbeckman.github.io/PSU-STAT-184/current/ClassNotes/week-07/Joins.nb.html)
+[Week 7: Table Joins (Doc)](https://mdbeckman.github.io/PSU-STAT-184/current/ClassNotes/week-07/Joins.nb.html)
 
 Assignments (Due Tuesday, March 3 11:59pm):
 
 - Canvas reading quiz (DC Chapter 8: Graphics & their grammar)
 - Lab activity: Bird Species
 - Homework: DC eBook Ch. 10 Exercises (Submit R Notebook on Canvas, Rmd and Notebook on GitHub)
+
+## Week 8
+[Week 8: ggplot2 (Slides)](https://mdbeckman.github.io/PSU-STAT-184/current/ClassNotes/week-08/ggplotSlides.html)
+
+[Week 8: ggplot2 (Doc)](https://mdbeckman.github.io/PSU-STAT-184/current/ClassNotes/week-08/ggplotSlides.nb.html)
+
+Assignments (Due Tuesday, March 17 11:59pm):
+
+- Canvas reading quiz (DC Chapter 12: Wide vs. Narrow)
+- Lab activity: Bicycle Sharing
+- Homework: DC eBook Ch. 8 Exercises (Submit R Notebook on Canvas, Rmd and Notebook on GitHub)
+- Final project: Submit two topic ideas
+
+
