@@ -25,7 +25,7 @@ Email: jzy5197@psu.edu
 | Monday 2-3pm | Thomas 330    | Kim | https://psu.zoom.us/j/592979786 |
 | Tuesday 1-2pm   | Thomas 330 | TJ  | https://psu.zoom.us/j/931713197 |
 | Friday 9-11am   | Thomas 301 | Alyssa  | https://psu.zoom.us/j/934664137 |
-| By appointment, any day   | Thomas 301    | Sarah Shy | https://psu.zoom.us/j/337376082 |
+| Wed/Fri 10:10-11am   | Thomas 301    | Sarah Shy | https://psu.zoom.us/j/337376082 |
 
 ## Websites & Course Links
 **Course Webpage:** https://sarahshy.github.io/STAT-184-Website 
@@ -57,7 +57,7 @@ Most issues about classroom activities should be posted to Piazza, but you shoul
 Learning outcomes will be assessed based on performance in each of the following categories accompanied by their impact on the overall grade:  
 
 25% Final Exam (Wednesday May 6, 104 Keller, 2:30-4:20pm)  
-20% Midterm Exam (Friday, March 20)  
+20% Midterm Exam (Friday, March 20)   
 15% Semester Project  
 15% In-class labs
 15% Exercises  
