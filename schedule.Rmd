@@ -94,4 +94,35 @@ Assignments (Due Tuesday, March 17 11:59pm):
 - Homework: DC eBook Ch. 8 Exercises (Submit R Notebook on Canvas, Rmd and Notebook on GitHub)
 - Final project: Submit two topic ideas
 
+## Week 9
+[Week 9: Wide vs Narrow Data Layouts](https://mdbeckman.github.io/PSU-STAT-184/current/ClassNotes/week-09/wideNarrowSlides.nb.html)
 
+Assignments (Due Tuesday, March 24 11:59pm):
+
+- Canvas reading quiz (DC Chapter 13+16: Ranks + Data Intake)
+- Lab activity: No lab (Midterm week)
+- Homework: DC Exercises (ch 12 - wide vs narrow data)
+
+## Week 10
+
+[Week 10: Ranks and Data Intake](https://mdbeckman.github.io/PSU-STAT-184/current/ClassNotes/week-10/ranks_intake_notes.nb.html)
+
+Assignments (Due Tuesday, March 31 11:59pm):
+
+- Canvas reading quiz (DC Chapter 15 - Statistics concepts)
+- Lab activity: Scraping Nuclear Reactors
+- Homework: DC Exercises (ch 13 & 16) (Submit R Notebook on Canvas, Rmd and Notebook on GitHub)
+
+
+## Week 11
+
+[Week 11: Statistical Foundations](https://mdbeckman.github.io/PSU-STAT-184/current/ClassNotes/week-11/StatFoundationsSlides.nb.html)
+
+Assignments (Due Tuesday, April 7 11:59pm):
+
+- Canvas reading quiz (DC Chapter 17 - Regular expressions)
+- Lab activity: Statistics of Gene Expression
+- Homework: DC Exercises (ch 15 -- Statistics) (Submit R Notebook on Canvas, Rmd and Notebook on GitHub)
+- Final Project: Preliminary EDA
+
+## Week 12
