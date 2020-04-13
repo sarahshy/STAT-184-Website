@@ -56,12 +56,12 @@ Most issues about classroom activities should be posted to Piazza, but you shoul
 ## Grading
 Learning outcomes will be assessed based on performance in each of the following categories accompanied by their impact on the overall grade:  
 
-25% Final Exam (Wednesday May 6, 104 Keller, 2:30-4:20pm)  
-20% Midterm Exam (Friday, March 20)   
-15% Semester Project  
-15% In-class labs
+15% Final Exam (Wednesday May 6, 104 Keller, 2:30-4:20pm)  
+15% Midterm Exam (Friday, March 20)   
+20% Final Project  
+20% In-class labs
 15% Exercises  
-5% Reading Quizzes  
+10% Reading Quizzes  
 5% Participation  
 
 Final letter grades will be determined as follows:  
